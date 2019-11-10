@@ -69,18 +69,23 @@ const IndexPage = () => (
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
-        <div className="image">
-          <img src={pic1} alt="" />
+        <div className="image pwa">
+          <iframe src="https://movies.diegopronesti.com.ar" width="360" height="640"/>
+          <iframe src="https://blackjack.diegopronesti.com.ar" width="360" height="640"/>
+          <iframe src="https://swipper.diegopronesti.com.ar" width="360" height="640"/>
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+            Progressive web apps:
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Made with React.JS & Material UI
+            <hr />
+            <ul className="actions stacked">
+            <li><a href="movies.diegopronesti.com.ar">Movies App</a></li>
+            <li><a href="blackjack.diegopronesti.com.ar">Blackjack App</a></li>
+            <li><a href="swipper.diegopronesti.com.ar">Dating App</a></li>
+            </ul>
           </p>
         </div>
       </section>
