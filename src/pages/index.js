@@ -4,7 +4,6 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
@@ -35,32 +34,29 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Personal Information
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Location: Buenos Aires, Argentina<br />
+            Technologies:
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+           HTML5, CSS, JavaScript, React.JS, ExpressJS, MongoDB, Firebase, PHP, MYSQL, Java 
           </p>
         </header>
         <ul className="icons major">
           <li>
             <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+              <span className="label"></span>
             </span>
           </li>
           <li>
             <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+              <span className="label"></span>
             </span>
           </li>
           <li>
             <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
+              <span className="label"></span>
             </span>
           </li>
         </ul>
@@ -70,7 +66,6 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image pwa">
-          <iframe src="https://movies.diegopronesti.com.ar" width="360" height="640"/>
           <iframe src="https://blackjack.diegopronesti.com.ar" width="360" height="640"/>
           <iframe src="https://swipper.diegopronesti.com.ar" width="360" height="640"/>
         </div>
@@ -79,7 +74,7 @@ const IndexPage = () => (
             Progressive web apps:
           </h2>
           <p>
-            Made with React.JS & Material UI
+            Made with React.JS and Material UI
             <hr />
             <ul className="actions stacked">
             <li><a href="movies.diegopronesti.com.ar">Movies App</a></li>
@@ -95,13 +90,12 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
+            Full Stack&nbsp;
             <br />
-            elementum magna
+            Applications 
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            With ExpressJS and MongoDB for the backend.
           </p>
         </div>
       </section>
@@ -109,30 +103,38 @@ const IndexPage = () => (
         <div className="image">
           <img src={pic3} alt="" />
         </div>
-        <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
+        <section className="content">
+					<h4>Contact</h4>
+					<form method="post" action="#">
+						<div className="row gtr-uniform">
+							<div className="col-6 col-12-xsmall">
+								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
+							</div>
+							<div className="col-6 col-12-xsmall">
+								<input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
+							</div>
+							<div className="col-12">
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+							<div className="col-12">
+								<ul className="actions">
+									<li><input type="submit" value="Send Message" className="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
       </section>
     </section>
 
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Projects:</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            You can find more on my GitHub profile
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
           </p>
         </header>
         <ul className="features">
@@ -185,21 +187,20 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Curriculum Vitae</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            See my curriculum or download it.
           </p>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
-              Activate
+            <a href="https://drive.google.com/file/d/11gZ8PRReNh_0_nH4u8_cHAc2FKbjsIsE/view?usp=sharing" className="button fit primary">
+              Show CV
             </a>
           </li>
           <li>
-            <a href="/#" className="button fit">
-              Learn More
+            <a href="https://drive.google.com/uc?export=download&id=11gZ8PRReNh_0_nH4u8_cHAc2FKbjsIsE" className="button fit">
+             Download
             </a>
           </li>
         </ul>

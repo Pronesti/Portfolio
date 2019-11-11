@@ -1131,6 +1131,7 @@
 	@mixin wrapper($p) {
 		background-color: _palette($p, bg);
 		color: _palette($p, fg);
+		background-color: rgb(52, 62, 73);
 
 		// Basic
 
@@ -1393,6 +1394,7 @@
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
 		background: _palette(accent1, bg);
+		background: rgb(52, 62, 73);
 		color: _palette(accent1, fg-bold);
 		height: 100%;
 		max-width: 80%;
@@ -1774,7 +1776,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner2.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1899,7 +1901,7 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner2.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1920,7 +1922,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner2.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
