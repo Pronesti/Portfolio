@@ -77,9 +77,9 @@ const IndexPage = () => (
             Made with React.JS and Material UI
             <hr />
             <ul className="actions stacked">
-            <li><a href="movies.diegopronesti.com.ar">Movies App</a></li>
-            <li><a href="blackjack.diegopronesti.com.ar">Blackjack App</a></li>
-            <li><a href="swipper.diegopronesti.com.ar">Dating App</a></li>
+            <li><a href="https://movies.diegopronesti.com.ar">Movies App</a></li>
+            <li><a href="https://blackjack.diegopronesti.com.ar">Blackjack App</a></li>
+            <li><a href="https://swipper.diegopronesti.com.ar">Dating App</a></li>
             </ul>
           </p>
         </div>
