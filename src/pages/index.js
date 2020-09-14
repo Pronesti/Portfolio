@@ -66,6 +66,7 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image pwa">
+          <iframe src="https://movies.diegopronesti.com.ar" width="360" height="640"/>
           <iframe src="https://blackjack.diegopronesti.com.ar" width="360" height="640"/>
           <iframe src="https://swipper.diegopronesti.com.ar" width="360" height="640"/>
         </div>
@@ -86,7 +87,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          {/* aca */}
         </div>
         <div className="content">
           <h2>
@@ -105,20 +106,20 @@ const IndexPage = () => (
         </div>
         <section className="content">
 					<h4>Contact</h4>
-					<form method="post" action="#">
+					<form action="https://formspree.io/mqkgzqpj" method="POST">
 						<div className="row gtr-uniform">
 							<div className="col-6 col-12-xsmall">
 								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
 							</div>
 							<div className="col-6 col-12-xsmall">
-								<input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
+								<input type="email" name="_replyto" id="demo-email" defaultValue="" placeholder="Email" />
 							</div>
 							<div className="col-12">
 								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 							</div>
 							<div className="col-12">
 								<ul className="actions">
-									<li><input type="submit" value="Send Message" className="primary" /></li>
+									<li><input type="submit" value="Send" className="primary" /></li>
 									<li><input type="reset" value="Reset" /></li>
 								</ul>
 							</div>
@@ -139,7 +140,7 @@ const IndexPage = () => (
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+            <a href='https://github.com/Pronesti/templateEngine'><h3>Template Engine</h3></a>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
@@ -194,12 +195,12 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="https://drive.google.com/file/d/11gZ8PRReNh_0_nH4u8_cHAc2FKbjsIsE/view?usp=sharing" className="button fit primary">
+            <a href="https://drive.google.com/file/d/11vHE_qkPdJhT75HaedaKkf_ikHR6xzB4/view?usp=sharing" className="button fit primary">
               Show CV
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/uc?export=download&id=11gZ8PRReNh_0_nH4u8_cHAc2FKbjsIsE" className="button fit">
+            <a href="https://drive.google.com/uc?export=download&id=11vHE_qkPdJhT75HaedaKkf_ikHR6xzB4" className="button fit">
              Download
             </a>
           </li>
