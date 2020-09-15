@@ -4,7 +4,6 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
 const IndexPage = () => (
@@ -66,9 +65,9 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image pwa">
-          <iframe src="https://movies.diegopronesti.com.ar" width="360" height="640"/>
-          <iframe src="https://blackjack.diegopronesti.com.ar" width="360" height="640"/>
-          <iframe src="https://swipper.diegopronesti.com.ar" width="360" height="640"/>
+          <iframe title='movies' src="https://movies.diegopronesti.com.ar" width="360" height="640"/>
+          <iframe title='blackjack' src="https://blackjack.diegopronesti.com.ar" width="360" height="640"/>
+          <iframe title='swipper' src="https://swipper.diegopronesti.com.ar" width="360" height="640"/>
         </div>
         <div className="content">
           <h2>
@@ -139,47 +138,62 @@ const IndexPage = () => (
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <a href='https://github.com/Pronesti/templateEngine'><h3>Template Engine</h3></a>
+          <li className="icon solid fa-code">
+          <a href='https://github.com/Pronesti/templateEngine'>
+           <h3>Template Engine</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              My own yet basic approach for a template engine commonly found in frameworks.
             </p>
+          </a>
           </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+          <li className="icon solid fa-map">
+            <a href='https://github.com/Pronesti/aeroterra'>
+              <h3>Aeroerra</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+             Working on google maps, this app allows you to create markers with extra information.
             </p>
+            </a>
+            <a href="https://aeroterra.diegopronesti.com.ar" className="button fit primary">
+              Show Live Preview
+            </a>
+          </li>
+          <li className="icon brands fa-instagram">
+            <a href='https://github.com/Pronesti/AltaFoto'>
+            <h3>AltaFoto</h3>
+            <p>
+              A basic instagram clone built in React and Firebase.
+            </p>
+            </a>
+            <a href="https://altafoto.diegopronesti.com.ar" className="button fit primary">
+              Show Live Preview
+            </a>
+          </li>
+          <li className="icon brands fa-twitter">
+            <a href='https://github.com/Pronesti/react_tuiter_client'>
+            <h3>React Tuiter Client</h3>
+            <p>
+              Copying twitters ui in ReactJS.
+            </p>
+            </a>
+            <a href="https://basictuiter.diegopronesti.com.ar" className="button fit primary">
+              Show Live Preview
+            </a>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <a href='https://github.com/Pronesti/phalcon-rest-api'>
+            <h3>Phalcon Rest API</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Rest API template in PHP's framework Phalcon with Docker & Docker-Compose.
             </p>
+            </a>
           </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+          <li className="icon solid fa-code">
+          <a href='https://github.com/Pronesti/mern-boilerplate'>
+            <h3>MERN Stack</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              MongoDB, Express, React and Node boilerplate.
             </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+            </a>
           </li>
         </ul>
       </div>
