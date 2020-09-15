@@ -209,12 +209,12 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="https://drive.google.com/file/d/11vHE_qkPdJhT75HaedaKkf_ikHR6xzB4/view?usp=sharing" className="button fit primary">
+            <a href="https://drive.google.com/file/d/1I4wiC2mfy6GGbUAqpRDzQfhHccaTctTw/view?usp=sharing" className="button fit primary">
               Show CV
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/uc?export=download&id=11vHE_qkPdJhT75HaedaKkf_ikHR6xzB4" className="button fit">
+            <a href="https://drive.google.com/uc?export=download&id=1I4wiC2mfy6GGbUAqpRDzQfhHccaTctTw" className="button fit">
              Download
             </a>
           </li>
