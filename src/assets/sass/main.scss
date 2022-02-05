@@ -1942,3 +1942,19 @@
 	.pwa iframe{
 		margin-right: 1em;
 	}
+
+	.center-text{
+		text-align: center;
+	}
+
+	.center-text-y{
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-direction: column;
+	}
+
+	.customList > span{
+		display: block;
+		padding: 0.5em;
+	}

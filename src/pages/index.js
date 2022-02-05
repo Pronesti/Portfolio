@@ -4,7 +4,6 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -37,28 +36,45 @@ const IndexPage = () => (
           </h2>
           <p>
             Location: Buenos Aires, Argentina<br />
-            Technologies:
-            <br />
-           HTML5, CSS, JavaScript, React.JS, ExpressJS, MongoDB, Firebase, PHP, MYSQL, Java 
           </p>
-        </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label"></span>
-            </span>
+          <ul className="features">
+          <li className="icon solid fa-code">
+           <h3>Backend</h3>
+           <div className='customList'>
+              <span>Laravel</span>
+              <span>Slim</span>
+              <span>Phalcon</span>
+              <span>ExpressJS</span>
+           </div>
           </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label"></span>
-            </span>
+          <li className="icon solid fa-code">
+           <h3>Frontend</h3>
+           <div className='customList'>
+              <span>VueJS</span>
+              <span>ReactJS</span>
+              <span>WordPress</span>
+           </div>
           </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label"></span>
-            </span>
+          <li className="icon solid fa-code">
+           <h3>Databases</h3>
+           <div className='customList'>
+              <span>Mysql</span>
+              <span>MongoDB</span>
+              <span>PostgreSQL</span>
+              <span>Firebase</span>
+           </div>
+          </li>
+          <li className="icon solid fa-code">
+           <h3>OTHER</h3>
+           <div className='customList'>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Bootstrap</span>
+              <span>TailwindCSS</span>
+           </div>
           </li>
         </ul>
+        </header>
       </div>
     </section>
 
@@ -67,7 +83,6 @@ const IndexPage = () => (
         <div className="image pwa">
           <iframe title='movies' src="https://movies.diegopronesti.com.ar" width="360" height="640"/>
           <iframe title='blackjack' src="https://blackjack.diegopronesti.com.ar" width="360" height="640"/>
-          <iframe title='swipper' src="https://swipper.diegopronesti.com.ar" width="360" height="640"/>
         </div>
         <div className="content">
           <h2>
@@ -79,52 +94,21 @@ const IndexPage = () => (
             <ul className="actions stacked">
             <li><a href="https://movies.diegopronesti.com.ar">Movies App</a></li>
             <li><a href="https://blackjack.diegopronesti.com.ar">Blackjack App</a></li>
-            <li><a href="https://swipper.diegopronesti.com.ar">Dating App</a></li>
             </ul>
           </p>
         </div>
       </section>
-      <section className="spotlight">
-        <div className="image">
-          {/* aca */}
-        </div>
-        <div className="content">
+      <section className="wrapper">
+        <div className="center-text">
           <h2>
-            Full Stack&nbsp;
+            Full Stack
             <br />
-            Applications 
+            Applications
           </h2>
           <p>
-            With ExpressJS and MongoDB for the backend.
+            Laravel & VueJs or NodeJs & ReactJs
           </p>
         </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <section className="content">
-					<h4>Contact</h4>
-					<form action="https://formspree.io/mqkgzqpj" method="POST">
-						<div className="row gtr-uniform">
-							<div className="col-6 col-12-xsmall">
-								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
-							</div>
-							<div className="col-6 col-12-xsmall">
-								<input type="email" name="_replyto" id="demo-email" defaultValue="" placeholder="Email" />
-							</div>
-							<div className="col-12">
-								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-							</div>
-							<div className="col-12">
-								<ul className="actions">
-									<li><input type="submit" value="Send" className="primary" /></li>
-									<li><input type="reset" value="Reset" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</section>
       </section>
     </section>
 
@@ -201,20 +185,17 @@ const IndexPage = () => (
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
-        <header>
+        <header className="center-text-y">
           <h2>Curriculum Vitae</h2>
-          <p>
-            See my curriculum or download it.
-          </p>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="https://drive.google.com/file/d/1I4wiC2mfy6GGbUAqpRDzQfhHccaTctTw/view?usp=sharing" className="button fit primary">
+            <a href="https://drive.google.com/file/d/1P84-KYruc4op7JAV62ivikbGBIc3U1Kb/view?usp=sharing" className="button fit primary">
               Show CV
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/uc?export=download&id=1I4wiC2mfy6GGbUAqpRDzQfhHccaTctTw" className="button fit">
+            <a href="https://drive.google.com/uc?export=download&id=1P84-KYruc4op7JAV62ivikbGBIc3U1Kb" className="button fit">
              Download
             </a>
           </li>
